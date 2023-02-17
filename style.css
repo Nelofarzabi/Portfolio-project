@@ -1,4 +1,11 @@
 body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.main_div { 
   width: 320px;
   margin: 0;
   padding: 0;
@@ -46,20 +53,27 @@ body {
 
 .my-name {
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 50px;
   align-items: center;
   margin-bottom: 0;
   color: #1a2236;
+  line-height: 100%;
   font-style: normal;
 }
 
-.info {
+.info,
+.info_span {
   font-size: 14px;
   font-family: 'poppin', sans-serif;
   color: #1a2236;
   letter-spacing: -1%;
   margin-bottom: 0;
+  line-height: 21px;
+}
+
+.info_span {
+  margin-top: 20px;
 }
 
 .collaboration {
