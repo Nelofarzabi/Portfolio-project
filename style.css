@@ -110,7 +110,7 @@ body {
 
 .project {
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 50px;
   align-items: center;
   margin-bottom: 20px;
@@ -128,7 +128,6 @@ body {
 
 .projects {
   margin-top: 0;
-  height: 342px;
   background-color: #1a2236;
 }
 
@@ -141,12 +140,17 @@ body {
   font-weight: 100;
 }
 
+ul, li  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .project-languages {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 250px;
-  margin-left: 10px;
+  width: 100%;
+  list-style: none;
 }
 
 .css-html,
@@ -157,11 +161,21 @@ body {
   color: #1a2236;
   font-family: 'poppin', sans-serif;
   text-align: center;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 7px 11px;
   cursor: pointer;
+  list-style: none;
+  font-weight: 300;
+  line-height: 80%;
+  margin-left: 18px;
+}
+
+.see-project-div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 13px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .see-project {
@@ -170,17 +184,26 @@ body {
   border-width: 2px;
   border-color: #fff;
   border-style: solid;
-  width: 190px;
+  width: 170px;
   margin-top: 13px;
-  margin-left: 10px;
+  margin-bottom: 13px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   cursor: pointer;
-}
-
-.this-project {
   font-size: 16px;
+  font-weight: 500;
   color: #fff;
   font-family: 'poppin', sans-serif;
   margin-left: 5px;
+  line-height: 24px;
+}
+
+.see-project:hover {
+  background-color: #fff;
+  border-color: #1a2236;
+  color: #1a2236;
 }
 
 .right-arrow {
@@ -201,7 +224,7 @@ body {
 
 .about-main-headline {
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 50px;
   align-items: center;
   margin-bottom: 0;
@@ -209,13 +232,13 @@ body {
   font-style: normal;
   margin-left: 10px;
   margin-top: 25px;
+  line-height: 100%;
 }
 
 .about-text {
   font-family: 'poppin', sans-serif;
   color: #1a2236;
   font-size: 14px;
-  letter-spacing: -1%;
   margin-bottom: 0;
   margin-left: 10px;
   line-height: 21px;
@@ -225,8 +248,8 @@ body {
   margin-top: 20px;
   justify-content: center;
   width: 288px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: flex;
   flex-direction: row;
   background-color: #1a2236;
@@ -235,6 +258,7 @@ body {
   font-weight: 500;
   align-self: center;
   cursor: pointer;
+  line-height: 24px;
 }
 
 .cv-icon {
@@ -244,8 +268,8 @@ body {
 }
 
 .tools {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto;
   align-items: center;
   margin-top: 30px;
 }
@@ -255,6 +279,7 @@ body {
   width: 289px;
   color: #fff;
   font-family: 'poppin', sans-serif;
+  padding-left: 30px;
   background-image: url(images/language-background.svg);
 }
 
@@ -263,13 +288,17 @@ body {
   font-size: 20px;
   margin-left: 30px;
   margin-top: 50px;
+  line-height: 30px;
 }
 
 .tools-use,
 li {
   font-size: 18px;
   font-weight: 600;
-  margin-left: 10px;
+  margin-left: 25px;
+  line-height: 27px;
+  line-height: 27px;
+  list-style: disc;
 }
 
 .frameworks {
@@ -277,6 +306,7 @@ li {
   width: 289px;
   color: #fff;
   font-family: 'poppin', sans-serif;
+  padding-left: 30px;
   margin-top: 50px;
   background-image: url(images/framework-background.svg);
 }
@@ -286,6 +316,7 @@ li {
   width: 289px;
   color: #fff;
   font-family: 'poppin', sans-serif;
+  padding-left: 30px;
   margin-top: 50px;
   background-image: url(images/skills-background.svg);
 }
