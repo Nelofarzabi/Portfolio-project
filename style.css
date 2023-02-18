@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.main_div {
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9fa;
+}
+
+.header-file {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-image: url(IMAGES/image-1.svg);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+  height: auto;
+}
+
+.nav-btn {
+  float: left;
+  height: 14px;
+  width: 20px;
+  margin-top: 20px;
+  margin-left: 280px;
+  cursor: pointer;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.my-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 50px;
+  align-items: center;
+  margin-bottom: 0;
+  color: #1a2236;
+  line-height: 100%;
+  font-style: normal;
+}
+
+.info,
+.info_span {
+  font-size: 14px;
+  font-family: 'poppin', sans-serif;
+  color: #1a2236;
+  letter-spacing: -1%;
+  margin-bottom: 0;
+  line-height: 21px;
+}
+
+.info_span {
+  margin-top: 20px;
+}
+
+.collaboration {
+  background-color: #1a2236;
+  color: aliceblue;
+  font-weight: 500;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top: 30px;
+  font-family: 'poppin', sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.banner-image {
+  width: 100%;
+  height: 160px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  background-image: url(images/image-2.svg);
+  background-repeat: no-repeat;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
