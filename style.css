@@ -140,7 +140,7 @@ body {
   font-weight: 100;
 }
 
-ul, li  {
+ul, li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -187,7 +187,7 @@ ul, li  {
   width: 170px;
   margin-top: 13px;
   margin-bottom: 13px;
-  margin-left: 20px;
+  margin-left: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -196,7 +196,6 @@ ul, li  {
   font-weight: 500;
   color: #fff;
   font-family: 'poppin', sans-serif;
-  margin-left: 5px;
   line-height: 24px;
 }
 
@@ -296,7 +295,6 @@ li {
   font-size: 18px;
   font-weight: 600;
   margin-left: 25px;
-  line-height: 27px;
   line-height: 27px;
   list-style: disc;
 }
