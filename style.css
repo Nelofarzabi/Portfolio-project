@@ -173,7 +173,7 @@ li {
 .see-project-div {
   display: flex;
   flex-direction: row;
-  padding-left: 13px;
+  padding-left: 0;
   width: 100%;
   margin-top: 0;
   margin-bottom: 0;
