@@ -312,17 +312,18 @@ li {
 
 .skills {
   height: 289px;
-  width: 289px;
   color: #fff;
   font-family: 'poppin', sans-serif;
-  padding-left: 30px;
   margin-top: 50px;
+  margin-bottom: 50px;
   background-image: url(images/skills-background.svg);
 }
 
 .get-started-section {
   display: flex;
   flex-direction: column;
+  background-image: url(images/image-1.svg);
+  background-repeat: no-repeat;
 }
 
 .get-started-header-text {
@@ -330,11 +331,10 @@ li {
   font-weight: 400;
   font-size: 50px;
   align-items: center;
-  margin-bottom: 0;
   color: #1a2236;
   font-style: normal;
   margin-left: 10px;
-  margin-top: 25px;
+  margin-top: 100px;
   line-height: 100%;
 }
 
@@ -352,7 +352,6 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 15px;
 }
 
 .box {
@@ -363,7 +362,6 @@ li {
   width: 288px;
   height: 52px;
   margin-top: 25px;
-  padding: 0 15px;
   border: 2px solid gray;
   border-radius: 5px;
   outline: #333;
@@ -377,6 +375,7 @@ li {
   top: 35px;
   left: 15px;
   transition: 0.3s all;
+  color: #707581;
 }
 
 .text:focus + .placeholder,
@@ -391,7 +390,7 @@ li {
 .message {
   margin-top: 10px;
   margin-left: 10px;
-  width: 310px;
+  width: 294px;
   height: 112px;
   color: #1a2236;
   font-size: 15px;
